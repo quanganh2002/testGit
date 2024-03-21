@@ -1,5 +1,5 @@
 import re
-
+## author: Quang Anh
 def check_url(text):
     patterm = '^(http|https):\/\/(www\.)?[a-zA-Z0-9]+(\.[a-z]{2,6})[^\s]*$'
     return re.match(patterm, text)
